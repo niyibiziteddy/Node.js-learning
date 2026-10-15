@@ -16,7 +16,7 @@ const logger = ((req,res,next) => {
 
 //getusers handler
 const getUsersHandler = (res,req) => {
-    res.writeHead(200,{"content-type":"application/json"})
+    res.writeHead(200,({"content-type":"application/json"}))
     res.write(JSON.stringify(users))
 }
 //get user by id Handler
@@ -68,6 +68,6 @@ const server = createServer((req,res) => {
 
     
 })
-server.listen(PORT,() => {
+server.listen(PORT,'0.0.0.0',() => {
     console.log(`listening to the port ${PORT}`);
 })

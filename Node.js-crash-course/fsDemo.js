@@ -46,3 +46,4 @@ const appendFile = async() => {
 writeFile()
 appendFile()
 readData()
+console.log(process.env.NODE_ENV);

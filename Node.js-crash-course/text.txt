@@ -1,1 +1,2 @@
-This is the new text to the file This is the appended text to the file
+This is the new text to the file
+This is the appended text to the file
